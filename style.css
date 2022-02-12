@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #AFF7E8;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: #79F5B3;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile-img{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+
+.header-contect{
+    float: right;
+    padding: 30px;
+}
+
+.header-contect a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.header-contect a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+/*-----------------------------------
+        personal information start
+        --------------------------------*/
+
+
+#personal-information{
+
+}
+
+.content{
+    margin-bottom: 30px;
+}
+
+.left-div{
+    width: 30%;
+    float: left;
+}
+
+.right-div{
+    width: 70%;
+    float: left;
+}
+
+.common-hr{
+    border: 1px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+/*-----------------------------------
+        education section start
+        --------------------------------*/
+
+.right-div-left{
+    float: left;
+    width: 45%;
+}
+
+.right-div-right{
+    float: right;
+    width: 45%;
+}
+.right-div-right a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.right-div-right a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+/*-----------------------------------
+        reference part start
+        --------------------------------*/
+
+.right-div-left a{
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+ }
+
+.right-div-left a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+/*-----------------------------------
+        footer part start
+        --------------------------------*/
+
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.bottom-container a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.bottom-container p{
+    color: whitesmoke;
+    margin-top: 20px;
+}
